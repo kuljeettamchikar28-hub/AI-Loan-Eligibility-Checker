@@ -1,0 +1,12 @@
+{
+  "name": "loanwise-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check server.js && node --check public/js/app.js && node --check public/js/calculations.js && node --check public/js/api.js"
+  }
+}

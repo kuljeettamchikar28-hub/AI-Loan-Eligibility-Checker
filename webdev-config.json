@@ -1,0 +1,11 @@
+{
+  "build": {
+    "command": "cp -R public dist",
+    "outputDirectory": "dist"
+  },
+  "routes": [
+    { "path": "/api/*", "target": "server" },
+    { "path": "/assets/*", "target": "static", "cache": "immutable" },
+    { "path": "/*", "target": "static", "spaFallback": true }
+  ]
+}
