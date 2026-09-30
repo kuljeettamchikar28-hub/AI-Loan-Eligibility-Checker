@@ -1,0 +1,12 @@
+flowchart LR
+  U[User] --> F[LoanWise AI frontend<br/>Static HTML CSS JS]
+  F --> R[Rule engines<br/>Loan Credit EMI]
+  F --> A[API Claude]
+  F --> S[API save and get records]
+  A --> C[Anthropic Claude<br/>server side only]
+  S --> G[Google Sheets<br/>optional connector]
+  F --> L[localStorage<br/>mock session fallback]
+  A -. missing key .-> M[Safe mock response]
+  S -. connector failure .-> Q[Local queue and session fallback]
+  R --> V[Accessible result cockpit]
+  V --> U

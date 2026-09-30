@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "path": "/", "title": "LoanWise AI — Smarter loan decisions" },
+    { "path": "/loan.html", "title": "Loan Eligibility Checker — LoanWise AI" },
+    { "path": "/credit.html", "title": "Credit Score Analyzer — LoanWise AI" },
+    { "path": "/emi.html", "title": "EMI Calculator — LoanWise AI" },
+    { "path": "/tips.html", "title": "AI Financial Tips — LoanWise AI" },
+    { "path": "/records.html", "title": "My Records — LoanWise AI" },
+    { "path": "/privacy.html", "title": "Privacy — LoanWise AI" },
+    { "path": "/terms.html", "title": "Terms — LoanWise AI" }
+  ]
+}

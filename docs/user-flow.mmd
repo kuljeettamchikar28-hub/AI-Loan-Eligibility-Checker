@@ -1,0 +1,17 @@
+flowchart TD
+  H[Landing page] --> T{Choose a tool}
+  T --> L[Loan eligibility]
+  T --> C[Credit analyzer]
+  T --> E[EMI calculator]
+  T --> A[AI financial tips]
+  L --> V[Validate inputs]
+  C --> V
+  E --> V
+  V --> R[Show transparent result]
+  R --> X{Optional next step}
+  X --> S[Save to My Records]
+  X --> I[Ask AI for explanation]
+  X --> N[Adjust inputs]
+  A --> P{Consent to profile context?}
+  P --> Q[Chat with safe guidance]
+  S --> D[Search / filter / export / delete]
